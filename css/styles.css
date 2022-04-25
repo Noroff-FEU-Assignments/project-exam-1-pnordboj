@@ -11,6 +11,10 @@
     color: #107361;
 }
 
+ul {
+    list-style: none;
+}
+
 .colors {
     color: #042326; /*Primary Background Color*/
     color: #0A3A40; /*Secondary Bacgrkound Color/Navbar Color*/
@@ -33,11 +37,14 @@ button {
 /* Nav Start */
 
 nav {
+    background-color: #0A3A40 !important;
+    color: #1D7373;
+}
+
+.navContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #0A3A40 !important;
-    color: #1D7373;
 }
 
 /* Nav End */
