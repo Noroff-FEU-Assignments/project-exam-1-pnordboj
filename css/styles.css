@@ -1,0 +1,82 @@
+/*--------------*/
+/*--------------*/
+
+/* Global Start */
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+* {
+    font-family: "Montserrat", "sans-serif";
+    background-color: #042326;
+    color: #107361;
+}
+
+.colors {
+    color: #042326; /*Primary Background Color*/
+    color: #0A3A40; /*Secondary Bacgrkound Color/Navbar Color*/
+    color: #0F5959; /*Button Color*/
+    color: #1D7373; /*Secondary Text Color*/
+    color: #107361; /*Primary Text Color*/
+}
+
+button {
+    background-color: #0F5959;
+    list-style: none;
+    border-radius: 25%;
+    border: #0A3A40 2px solid;
+}
+
+/* Global End */
+
+/*--------------*/
+
+/* Nav Start */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0A3A40 !important;
+    color: #1D7373;
+}
+
+/* Nav End */
+
+/*--------------*/
+
+/* Home Start */
+
+/* Home End */
+
+/*--------------*/
+
+/* About Start */
+
+/* About End */
+
+/*--------------*/
+
+/* Contact Start */
+
+/* Contact End */
+
+/*--------------*/
+
+/* List Start */
+
+/* List End */
+
+/*--------------*/
+
+/* Specific Start */
+
+/* Specific End */
+
+/*--------------*/
+
+/* Footer Start */
+
+/* Footer End */
+
+/*--------------*/
+/*--------------*/
