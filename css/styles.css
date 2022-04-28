@@ -11,7 +11,7 @@
     color: #7289A6;
 }
 
-ul {
+ul, a {
     list-style: none;
 }
 
