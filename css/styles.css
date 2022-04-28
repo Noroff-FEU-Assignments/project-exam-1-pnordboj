@@ -41,13 +41,11 @@ button {
 /* Nav Start */
 
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #2B3640 !important;
     color: #9BAEBF !important;
-}
-
-.navContainer {
-    display: flex;
-    flex-direction: row;
 }
 
 li {
