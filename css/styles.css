@@ -7,8 +7,12 @@
 
 * {
     font-family: "Montserrat", "sans-serif";
-    background-color: #042326;
-    color: #107361;
+    background-color: #162226;
+    color: #7289A6;
+}
+
+ul {
+    list-style: none;
 }
 
 a:active, a:visited {
@@ -16,18 +20,18 @@ a:active, a:visited {
 }
 
 .colors {
-    color: #042326; /*Primary Background Color*/
-    color: #0A3A40; /*Secondary Bacgrkound Color/Navbar Color*/
-    color: #0F5959; /*Button Color*/
-    color: #1D7373; /*Secondary Text Color*/
-    color: #107361; /*Primary Text Color*/
+    color: #162226; /*Primary Background Color*/
+    color: #2B3640; /*Secondary Bacgrkound Color/Navbar Color*/
+    color: #455973; /*Button Color*/
+    color: #7289A6; /*Secondary Text Color*/
+    color: #9BAEBF; /*Primary Text Color*/
 }
 
 button {
-    background-color: #0F5959;
+    background-color: #455973;
     list-style: none;
     border-radius: 25%;
-    border: #0A3A40 2px solid;
+    border: #2B3640 2px solid;
 }
 
 /* Global End */
@@ -37,8 +41,8 @@ button {
 /* Nav Start */
 
 nav {
-    background-color: #0A3A40 !important;
-    color: #1D7373 !important;
+    background-color: #2B3640 !important;
+    color: #9BAEBF !important;
 }
 
 .navContainer {
@@ -46,16 +50,16 @@ nav {
     flex-direction: row;
 }
 
-#active {
-    background-color: #0F5959 !important;
-}
-
 li {
-    background-color: #0F5959 !important;
+    background-color: #455973 !important;
 }
 
-li:hover {
-    background-color: #0f6975 !important;
+.active {
+    background-color: #455973 !important;
+}
+
+.active:hover {
+    background-color: rgb(2, 101, 114) !important;
 }
 
 /* Nav End */
@@ -93,6 +97,14 @@ li:hover {
 /*--------------*/
 
 /* Footer Start */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
 
 /* Footer End */
 
