@@ -48,6 +48,14 @@ nav {
     color: #9BAEBF !important;
 }
 
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 30%;
+    background-color: #2B3640 !important;
+}
+
 li {
     background-color: #455973 !important;
 }
