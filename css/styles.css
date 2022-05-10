@@ -5,10 +5,17 @@
 
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #7AE0FF; }
+.My-Color-Theme-2-hex { color: #4393DE; }
+.My-Color-Theme-3-hex { color: #4877F0; }
+.My-Color-Theme-4-hex { color: #393EDB; }
+.My-Color-Theme-5-hex { color: #7E5FFA; }
+
 * {
     font-family: "Montserrat", "sans-serif";
-    background-color: #162226;
-    color: #7289A6;
+    background-color: #7E5FFA;
+    color: #29363c;
 }
 
 ul, a, li {
@@ -34,6 +41,16 @@ button {
     border: #2B3640 2px solid;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoImg {
+    width: 15%;
+}
+
 /* Global End */
 
 /*--------------*/
@@ -44,8 +61,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2B3640;
-    color: #9BAEBF !important;
+    color: #29363c !important;
     width: 100%;
     height: 50px;
 }
@@ -53,13 +69,8 @@ nav {
 .navContainer {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    background-color: #2B3640;
+    flex-direction: row;    
     width: 30%; /* Gap for Navbar */
-}
-
-li {
-    background-color: #2B3640;
 }
 
 a:active, li:hover {
@@ -85,7 +96,7 @@ a:after, a:link, a:active, a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 /* Home End */
