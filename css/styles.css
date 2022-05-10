@@ -11,7 +11,7 @@
     color: #7289A6;
 }
 
-ul, a {
+ul, a, li {
     list-style: none;
 }
 
@@ -44,28 +44,35 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2B3640 !important;
+    background-color: #2B3640;
     color: #9BAEBF !important;
+    width: 100%;
+    height: 50px;
 }
 
 .navContainer {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 30%;
-    background-color: #2B3640 !important;
+    background-color: #2B3640;
+    width: 30%; /* Gap for Navbar */
 }
 
 li {
-    background-color: #455973 !important;
+    background-color: #2B3640;
+}
+
+a:active, li:hover {
+    background-color: #455973;
 }
 
 .active {
-    background-color: #455973 !important;
+    background-color: #455973;
 }
 
-.active:hover {
-    background-color: rgb(2, 101, 114) !important;
+a:after, a:link, a:active, a:hover {
+    list-style: none;
+    text-decoration: none;
 }
 
 /* Nav End */
@@ -73,6 +80,13 @@ li {
 /*--------------*/
 
 /* Home Start */
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 /* Home End */
 
@@ -110,6 +124,8 @@ footer {
     align-items: center;
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* Footer End */
