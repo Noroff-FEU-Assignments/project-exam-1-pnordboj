@@ -86,6 +86,11 @@ a:after, a:link, a:active, a:hover {
     text-decoration: none;
 }
 
+hr {
+    width: 50%;
+    opacity: 20%;
+}
+
 /* Nav End */
 
 /*--------------*/
@@ -97,6 +102,10 @@ a:after, a:link, a:active, a:hover {
     justify-content: center;
     align-items: center;
 
+}
+
+#homeH1 {
+    text-align: center;
 }
 
 /* Home End */
