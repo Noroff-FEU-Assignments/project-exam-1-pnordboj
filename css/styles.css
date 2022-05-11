@@ -52,14 +52,8 @@ button {
     border: #2B3640 2px solid;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #logoImg {
-    width: 15%;
+    width: 50%;
 }
 
 /* Global End */
@@ -70,16 +64,20 @@ button {
 
 nav {
     display: flex;
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    width: 10em;
+    
     justify-content: center;
     align-items: center;
-    height: 50px;
 }
 
 .navContainer {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;    
-    width: 30%; /* Gap for Navbar */
+    flex-direction: column;
+    font-size: 30px;
+    margin-left: 3%;
 }
 
 a:active, li:hover {
@@ -111,8 +109,29 @@ hr {
     align-items: center;
 }
 
-#homeH1 {
+#homeH1, #homeH2 {
     text-align: center;
+}
+
+.homeMovies {
+    text-align: center;
+    border: solid 2px;
+    margin-bottom: 10%;
+}
+
+.latestMovies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 60%;
+    gap: 15%;
+}
+
+.apiImage > img {
+    width: 200px;
 }
 
 /* Home End */
@@ -153,6 +172,8 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    background-image: linear-gradient(to right, #5C2682 , #7E5FFA);
+
 }
 
 /* Footer End */
