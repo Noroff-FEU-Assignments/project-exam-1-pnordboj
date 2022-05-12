@@ -8,19 +8,13 @@ const html = document.querySelector(".latestMovies");
 
 async function getMovies() {
     try {
-
         const fetchMovie = await fetch(url);
         const movies = await fetchMovie.json();
-        
         html.innerHTML = '';
-        
         for(let i = 0; i < movies.length; i++) {
-
             const featureId = `${movies[i].featured_media}`;
-            
             const fetchImages = await fetch(image + featureId);
             const imageMovie = await fetchImages.json();
-            
             html.innerHTML += `
                 <div class="homeMovies">
                     <a href=""><h3 id="homeTitle">${movies[i].title.rendered}</h3></a>

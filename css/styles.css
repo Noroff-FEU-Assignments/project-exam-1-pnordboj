@@ -52,6 +52,14 @@ button {
     border: #2B3640 2px solid;
 }
 
+#moveRight {
+    display: none;
+}
+
+#moveLeft {
+    display: block;
+}
+
 #logoImg {
     width: 50%;
 }
@@ -68,7 +76,6 @@ nav {
     top: 10%;
     left: 5%;
     width: 10em;
-    
     justify-content: center;
     align-items: center;
 }
