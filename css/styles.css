@@ -54,10 +54,12 @@ button {
 
 #moveRight {
     display: none;
+    cursor: pointer;
 }
 
 #moveLeft {
     display: block;
+    cursor: pointer;
 }
 
 #logoImg {
