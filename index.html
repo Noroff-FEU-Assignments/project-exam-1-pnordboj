@@ -9,9 +9,16 @@
     <link rel="icon" href="assets/favicon.ico">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/mediaquery.css" rel="stylesheet">
-    <script>
+    <script src="experimental/moveNav.js">
         window.onload = (event) => {
             console.log("Page loaded");
+            leftButton.onclick = function() {
+                moveLeft()
+            };
+
+            rightButton.onClick = function() {
+                moveRight()
+            };
         }
     </script>
 </head>
