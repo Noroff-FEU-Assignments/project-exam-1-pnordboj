@@ -1,4 +1,4 @@
-const html = document.querySelector("nav");
+const htmlNav = document.querySelector("nav");
 const navContainer = document.querySelector(".navContainer");
 const leftButton = document.querySelector("#moveLeft");
 const rightButton = document.querySelector("#moveRight");
@@ -7,7 +7,7 @@ function moveLeft() {
     try {
         if(leftButton.style["display"] === "block") {
             leftButton.style["display"] = "none";
-            html.style["left"] = "95%";
+            htmlNav.style["left"] = "95%";
             navContainer.style["text-align"] = 'left';
             rightButton.style["display"] = "block";
         } else {
@@ -23,7 +23,7 @@ function moveRight() {
     try {
         if(rightButton.style["display"] === "block") {
             rightButton.style["display"] = "none";
-            html.style["left"] = "5%";
+            htmlNav.style["left"] = "5%";
             navContainer.style["text-align"] = '';
             leftButton.style["display"] = "block";
         } else {
