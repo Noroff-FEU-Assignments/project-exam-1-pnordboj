@@ -62,8 +62,12 @@ button {
     cursor: pointer;
 }
 
-#logoImg {
+#logoImgHome {
     width: 50%;
+}
+
+#logoImg {
+    width: 20%;
 }
 
 /* Global End */
