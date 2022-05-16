@@ -4,7 +4,7 @@ const id = params.get("id");
 
 const html = document.querySelector(".getReview");
 
-const url = "https://patricknj.one/nordbo/wp-json/wp/v2/posts" + "?" + "id=" + id;
+const url = "https://patricknj.one/nordbo/wp-json/wp/v2/posts" + "/?id=" + id;
 const image = "https://patricknj.one/nordbo/wp-json/wp/v2/media" + "?id=";
 
 async function getReview() {
@@ -19,8 +19,8 @@ async function getReview() {
         console.log(images);
         html.innerHTML = `
         <div class="specificReview">
-            <h2 id="specificTitle">${movie.title.rendered}</h2>
-            <img id="specificImg" src="${images.source_url}">
+            <h2 id="specificTitle">${movie[0].title.rendered}</h2>
+            <img id="specificImg" src="${images[0].source_url}">
         </div>
         `;
     } catch(error) {
