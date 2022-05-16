@@ -4,14 +4,14 @@ const id = params.get("id");
 
 const html = document.querySelector(".getReview");
 
-const url = "https://patricknj.one/nordbo/wp-json/wp/v2/posts" + "/?id=" + id;
-const image = "https://patricknj.one/nordbo/wp-json/wp/v2/media" + "?id=";
+const url = "https://patricknj.one/nordbo/wp-json/wp/v2/posts" + "/" + id;
+const image = "https://patricknj.one/nordbo/wp-json/wp/v2/media" + "/";
 
 async function getReview() {
     try {
         const fetchMovie = await fetch(url);
         const movie = await fetchMovie.json();
-        const featureId = `${movie[0].featured_media}`;
+        const featureId = `${movie.featured_media}`;
         const fetchImage = await fetch(image + featureId);
         const images = await fetchImage.json();
         html.innerHTML = ``;
@@ -19,8 +19,8 @@ async function getReview() {
         console.log(images);
         html.innerHTML = `
         <div class="specificReview">
-            <h2 id="specificTitle">${movie[0].title.rendered}</h2>
-            <img id="specificImg" src="${images[0].source_url}">
+            <h2 id="specificTitle">${movie.title.rendered}</h2>
+            <img id="specificImg" src="${images.source_url}">
         </div>
         `;
     } catch(error) {
