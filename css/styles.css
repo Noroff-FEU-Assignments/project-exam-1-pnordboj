@@ -167,6 +167,13 @@ hr {
 
 /* Specific Start */
 
+.getReview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
 /* Specific End */
 
 /*--------------*/
