@@ -1,0 +1,3 @@
+This folder is a feature i'm working on, just not prioritised.
+If this is not added to the website i didn't finish it.
+Idea of this darkMode feature is that it will have a keyframe animation with CSS and using javascript to run the CSS Animation and also set the colors instead of going back to the previous colors.
