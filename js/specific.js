@@ -4,7 +4,7 @@ const id = params.get("id");
 
 const html = document.querySelector(".getReview");
 
-const url = "https://patricknj.one/nordbo/wp-json/wp/v2/posts" + "?" + id;
+const url = "https://patricknj.one/nordbo/wp-json/wp/v2/posts" + "?" + "id=" + id;
 const image = "https://patricknj.one/nordbo/wp-json/wp/v2/media" + "/";
 
 async function getReview() {
