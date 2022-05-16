@@ -11,7 +11,7 @@ async function getReview() {
     try {
         const fetchMovie = await fetch(url);
         const movie = await fetchMovie.json();
-        const featureId = `${movie.featured_media}`;
+        const featureId = `${movie[0].featured_media}`;
         const fetchImage = await fetch(image + featureId);
         const images = await fetchImage.json();
         html.innerHTML = ``;
