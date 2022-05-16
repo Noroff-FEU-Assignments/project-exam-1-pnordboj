@@ -19,7 +19,7 @@ async function getReview() {
         html.innerHTML = `
         <div class="specificReview">
             <h2 id="specificTitle">${movie[0].title.rendered}</h2>
-            <img id="specificImg" src="${images[0].source_url}">
+            <img id="specificImg" src="${images.source_url}">
         </div>
         `;
     } catch(error) {
