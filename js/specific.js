@@ -13,13 +13,13 @@ async function getReview() {
         const movie = await fetchMovie.json();
         const featureId = `${movie.featured_media}`;
         const fetchImage = await fetch(image + featureId);
-        const image = await fetchImage.json();
+        const images = await fetchImage.json();
         html.innerHTML = ``;
         console.log(movie);
         html.innerHTML = `
         <div class="specificReview">
             <h2 id="specificTitle">${movie.title.rendered}</h2>
-            <img id="specificImg" src="${image.source_url}">
+            <img id="specificImg" src="${images.source_url}">
         </div>
         `;
     } catch(error) {
