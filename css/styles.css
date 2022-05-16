@@ -172,6 +172,11 @@ hr {
     justify-content: center;
     align-items: center;
     width: 50%;
+    margin: auto;
+}
+
+#specificH1 {
+    text-align: center;
 }
 
 #specificImg {
