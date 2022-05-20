@@ -40,9 +40,9 @@ function moveRight() {
 }
 
 leftButton.onclick = function() {
-    moveLeft()
+    moveLeft();
 }
 
 rightButton.onClick = function() {
-    moveRight()
+    moveRight();
 }
