@@ -15,6 +15,7 @@
     }
 
     #moveRight {
+        margin: auto;
         margin-right: 15%;
         left: 0%;
     }
