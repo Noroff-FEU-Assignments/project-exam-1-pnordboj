@@ -1,0 +1,57 @@
+/* For Mobile Phones, example: All iPhones according too Firefox Developer Edition */
+
+@media only screen and (max-width: 768px) {
+
+    /* Global */
+
+    .navContainer {
+        font-size: 20px;
+    }
+
+    hr {
+        width: 50%;
+    }
+
+    /* Home Page */
+
+    .homeColor {
+        font-size: 42px;
+    }
+
+    /* About Page */
+
+    /* Contact Page */
+
+    /* Reviews Page */
+
+    .sectionBorder {
+        border: none;
+    }
+
+    /* Specific Review Page */
+
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Laptop */
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* For Desktop */
+
+@media only screen and (min-width: 1600px) {
+
+}
+
+/* Bigger Monitors */
+
+@media only screen and (min-width: 2000px) {
+
+}

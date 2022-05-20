@@ -42,7 +42,7 @@ a:active, a:visited {
 }
 
 ::-webkit-scrollbar-track {
-    background-image: linear-gradient(to right, #5C2682 , #7E5FFA); 
+    background-image: linear-gradient(to right, #5C2682 , #7E5FFA);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -62,10 +62,8 @@ a:active, a:visited {
 }
 
 button {
-    background-color: #455973;
+    background-image: linear-gradient(to right, #5C2682 , #7E5FFA);
     list-style: none;
-    border-radius: 25%;
-    border: #2B3640 2px solid;
 }
 
 #moveRight {
