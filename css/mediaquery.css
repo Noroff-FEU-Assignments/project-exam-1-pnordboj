@@ -16,8 +16,9 @@
 
     #moveRight {
         margin: auto;
-        margin-right: 15%;
-        left: 0%;
+        margin-right: 0%;
+        left: 0;
+        right: 0;
     }
 
     #logoImg {
