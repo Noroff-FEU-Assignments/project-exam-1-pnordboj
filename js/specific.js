@@ -25,6 +25,7 @@ async function getReview() {
             ${movie.content.rendered}
         </div>
         <div class="movieScore">
+            <h4>Our Score:</h4>
             <h3>${movie.meta.yasr_overall_rating}</h3>
         </div>
         `;
