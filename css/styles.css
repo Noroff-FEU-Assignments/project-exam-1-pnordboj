@@ -142,7 +142,6 @@ hr {
     background: -webkit-linear-gradient(to right, #F4837D , #F2B3B3 , #DFE3E4); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
   }
 
 .homeMovies {
