@@ -14,8 +14,8 @@
         left: 2%;
     }
 
-    #moveLeft, #moveRight {
-        left: 1%;
+    #moveRight {
+        right: 1%;
     }
 
     #logoImg {
