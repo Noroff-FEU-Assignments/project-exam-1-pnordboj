@@ -226,6 +226,8 @@ hr {
 }
 
 .listMovies {
+    margin-top: 7%;
+    text-align: center;
     border: solid 2px;
 }
 
