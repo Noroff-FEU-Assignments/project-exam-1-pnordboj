@@ -25,7 +25,7 @@ async function getReview() {
             <p id="specificDesc">${movie.content.rendered}</p>
         </div>
         <div class="movieScore">
-            <label>${movie.meta.yasr_overall_rating}</label>
+            <h3>${movie.meta.yasr_overall_rating}</h3>
         </div>
         `;
     } catch(error) {
