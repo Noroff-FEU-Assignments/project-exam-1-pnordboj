@@ -15,9 +15,7 @@
     }
 
     #moveRight, #moveLeft {
-        margin-left: 10%;
-        left: 0;
-        right: 0;
+        display: none;
     }
 
     #logoImg {
