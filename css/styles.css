@@ -165,14 +165,32 @@ hr {
 
 /* About Start */
 
+.aboutMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
 /* About End */
 
 /*--------------*/
 
 /* Contact Start */
 
+.contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
 .submitButton {
     border: solid 2px;
+}
+
+#submit {
+    cursor: pointer;
 }
 
 .form-error {
@@ -187,6 +205,11 @@ hr {
 /* List Start */
 
 .sectionBorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
     border: solid 2px;
 }
 
