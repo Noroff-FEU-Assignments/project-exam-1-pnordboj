@@ -22,9 +22,8 @@ async function getReview() {
         <div class="specificReview">
             <h2 id="specificTitle">${movie.title.rendered}</h2>
             <img id="specificImg" src="${images.source_url}">
-            <div id="specificDesc">${movie.content.rendered}</div>
+            ${movie.content.rendered}
         </div>
-        ${movie.content.rendered}
         <div class="movieScore">
             <h3>${movie.meta.yasr_overall_rating}</h3>
         </div>
@@ -34,5 +33,7 @@ async function getReview() {
         html.innerHTML = displayError('error', error);
     }
 }
+
+// <div id="specificDesc">
 
 getReview();
