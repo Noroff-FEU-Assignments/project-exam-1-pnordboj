@@ -22,6 +22,7 @@ async function getMovies() {
                         <img id="homeImg" src="${imageMovie.source_url}">
                     </a>
                 </div>
+                
             `;
         }
     } catch(error) {

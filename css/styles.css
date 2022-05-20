@@ -107,8 +107,15 @@ a:active, li:hover {
     color: #4877F0;
 }
 
+/* Generated with the CSS Gradient tool from https://cssgradient.io */
 .active {
-    opacity: 50%;
+    cursor: default;
+    background: -moz-linear-gradient(right, #f2e2055f, #f2e2050b, #f2e20500);    
+    background: -o-linear-gradient(right, #f2e2055f, #f2e2050b, #f2e20500);
+    background: -webkit-linear-gradient(to right, #f2e2055f, #f2e2050b, #f2e20500);
+    background: linear-gradient(to right, #f2e2055f, #f2e2050b, #f2e20500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 a:after, a:link, a:active, a:hover {
@@ -136,7 +143,7 @@ hr {
     text-align: center;
 }
 
-.homeColor {
+.headColor {
     font-size: 72px;
     text-align: center;
     background: -webkit-linear-gradient(to right, #d4322c, #FED45E); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
@@ -178,6 +185,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: auto;
     width: 50%;
 }
@@ -220,10 +228,9 @@ hr {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 70%;
     margin: auto;
     margin-left: 15%;
-    border: solid 2px;
 }
 
 .allMovies {
@@ -250,8 +257,15 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    flex-direction: row;
+    width: 60%;
+    gap: 5%;
     margin: auto;
+}
+
+.titleImage {
+    display: flex;
+    flex-direction: column;
 }
 
 #specificH1 {
@@ -259,7 +273,16 @@ hr {
 }
 
 #specificImg {
-    width: 30%;
+    width: 100%;
+}
+
+.movieDesc {
+    font-size: 18px;
+}
+
+.movieScore {
+    border: solid 2px;
+    text-align: center;
 }
 
 /* Specific End */

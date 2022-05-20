@@ -3,6 +3,14 @@ const navContainer = document.querySelector(".navContainer");
 const leftButton = document.getElementById("moveLeft");
 const rightButton = document.getElementById("moveRight");
 
+// HTML Code
+/*  
+<div class="moveButton">
+    <button id="moveLeft">Move Left</button>
+    <button id="moveRight">Move Right</button>
+</div>
+*/
+
 function moveLeft() {
     try {
         if(leftButton.style["display"] === "block") {

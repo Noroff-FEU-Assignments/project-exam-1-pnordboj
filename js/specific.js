@@ -20,14 +20,17 @@ async function getReview() {
         document.getElementsByTagName('meta')["description"].content = `${movie.content.rendered}`
         html.innerHTML = `
         <div class="specificReview">
-            <h2 id="specificTitle">${movie.title.rendered}</h2>
-            <img id="specificImg" src="${images.source_url}">
-            ${movie.content.rendered}
+            <div class="titleImage">
+                <h2 id="specificTitle">${movie.title.rendered}</h2>
+                <img id="specificImg" src="${images.source_url}">
+            </div>
+            <div class="movieScore">
+                    <h4>Our Score:</h4>
+                    <h3>${movie.meta.yasr_overall_rating} / 5</h3>
+                </div>
         </div>
-        <div class="movieScore">
-            <h4>Our Score:</h4>
-            <h3>${movie.meta.yasr_overall_rating}</h3>
-        </div>
+        <label class="movieDesc">${movie.excerpt.rendered}</label>
+        
         `;
     } catch(error) {
         console.log(error);
