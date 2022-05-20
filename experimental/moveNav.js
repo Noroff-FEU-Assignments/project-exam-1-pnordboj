@@ -6,10 +6,11 @@ const rightButton = document.getElementById("moveRight");
 function moveLeft() {
     try {
         if(leftButton.style["display"] === "block") {
-            leftButton.style["display"] = "none";
+            leftButton.style["display"] = `none`;
             htmlNav.style["left"] = "95%";
-            navContainer.style["text-align"] = 'left';
-            rightButton.style["display"] = "block";
+            htmlNav.style["right"] = "5%";
+            navContainer.style["text-align"] = `left`;
+            rightButton.style["display"] = `block`;
         } else {
             console.log("How");
         }
@@ -24,6 +25,7 @@ function moveRight() {
         if(rightButton.style["display"] === "block") {
             rightButton.style["display"] = "none";
             htmlNav.style["left"] = "5%";
+            htmlNav.style["right"] = "95%";
             navContainer.style["text-align"] = '';
             leftButton.style["display"] = "block";
         } else {

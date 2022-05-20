@@ -69,12 +69,12 @@ button {
 }
 
 #moveRight {
-    display: none;
+    display: block;
     cursor: pointer;
 }
 
 #moveLeft {
-    display: block;
+    display: none;
     cursor: pointer;
 }
 
