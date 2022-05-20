@@ -14,7 +14,7 @@
         left: 2%;
     }
 
-    #moveRight {
+    #moveRight, #moveLeft {
         left: 0;
         right: 0;
     }
