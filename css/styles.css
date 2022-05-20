@@ -143,8 +143,10 @@ hr {
 .homeColor {
     text-align: center;
     background: -webkit-linear-gradient(to right, #D55854, #F9FAFC); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
+    background: -o-linear-gradient(right, #D55854, #F9FAFC); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
+    background: -moz-linear-gradient(right, #D55854, #F9FAFC); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
+    background: linear-gradient(to right, #D55854, #F9FAFC); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
