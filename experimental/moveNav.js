@@ -6,6 +6,7 @@ const rightButton = document.querySelector("#moveRight");
 function moveLeft() {
     try {
         if(leftButton.style["display"] === "block") {
+            console.log("Works");
             leftButton.style["display"] = `none`;
             htmlNav.style["left"] = "95%";
             htmlNav.style["right"] = "5%";
@@ -23,6 +24,7 @@ function moveLeft() {
 function moveRight() {
     try {
         if(rightButton.style["display"] === "block") {
+            console.log("Works");
             rightButton.style["display"] = "none";
             htmlNav.style["left"] = "5%";
             htmlNav.style["right"] = "95%";
