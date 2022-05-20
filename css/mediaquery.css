@@ -8,6 +8,14 @@
         font-size: 20px;
     }
 
+    nav {
+        left: 3%;
+    }
+
+    #logoImg {
+        width: 25%;
+    }
+
     hr {
         width: 50%;
     }
