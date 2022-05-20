@@ -14,6 +14,10 @@
         left: 2%;
     }
 
+    .moveButton {
+        margin-left: 1%;
+    }
+
     #logoImg {
         width: 30%;
     }
