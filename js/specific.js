@@ -24,6 +24,9 @@ async function getReview() {
             <img id="specificImg" src="${images.source_url}">
             <p id="specificDesc">${movie.content.rendered}</p>
         </div>
+        <div class="movieScore">
+            <label>${movie.meta.yasr_overall_rating}</label>
+        </div>
         `;
     } catch(error) {
         console.log(error);
