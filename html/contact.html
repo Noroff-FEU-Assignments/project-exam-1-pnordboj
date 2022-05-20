@@ -30,10 +30,47 @@
         </nav>
     </header>
     <section>
+        <form class="contactForm">
+            <div class="form">
+                <label>Full Name:</label>
+                <input type="text" id="fullName">
+                <div class="form-error" id="fullNameError">
+                    <p>Please enter your full name</p>
+                </div>
+            </div>
 
+            <div class="form">
+                <label>E-Mail:</label>
+                <input type="email" id="email">
+                <div class="form-error" id="emailError">
+                    <p>Please enter your e-mail</p>
+                </div>
+            </div>
+
+            <div class="form">
+                <label>Subject:</label>
+                <input type="text" id="subject" placeholder="Please enter your subject here! (min 15 letters)">
+                <div class="form-error" id="subjectError">
+                    <p>Not Enough Letters! Please have at least 15 Letters!</p>
+                </div>
+            </div>
+
+            <div class="form">
+                <label>Description:</label>
+                <input type="text" id="description" placeholder="What's your question or issue? (min 25 letters)">
+                <div class="form-error" id="descriptionError">
+                    <p>Not Enough Letters! Please have at least 25 Letters!</p>
+                </div>
+            </div>
+        </form>
+        <div class="submitButton">
+            <button id="submit">
+                Submit
+            </button>
+        </div>
     </section>
     <footer>
-        <p id="copyright">&copy; Nordbo 2022</p>
+        <p id="copyright">&copy; Movie Corn 2022</p>
     </footer>
     <script src="js/contact.js"></script>
 </body>

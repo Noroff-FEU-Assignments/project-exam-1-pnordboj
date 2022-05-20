@@ -155,11 +155,19 @@ hr {
 
 /* Contact Start */
 
+.submitButton {
+    border: solid 2px;
+}
+
 /* Contact End */
 
 /*--------------*/
 
 /* List Start */
+
+.sectionBorder {
+    border: solid 2px;
+}
 
 /* List End */
 
