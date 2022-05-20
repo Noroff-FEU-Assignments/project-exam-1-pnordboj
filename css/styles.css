@@ -138,6 +138,10 @@ hr {
     text-align: center;
 }
 
+#homeColor {
+    background-image: linear-gradient(to right, #37164e , #3e2f7c);
+}
+
 .homeMovies {
     text-align: center;
     border: solid 2px;
