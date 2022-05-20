@@ -140,6 +140,7 @@ hr {
 
 .homeColor {
     text-align: center;
+    font-size: 52px;
     background: -webkit-linear-gradient(to right, #D55854, #F9FAFC); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
     background: -o-linear-gradient(right, #D55854, #F9FAFC); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
     background: -moz-linear-gradient(right, #D55854, #F9FAFC); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
