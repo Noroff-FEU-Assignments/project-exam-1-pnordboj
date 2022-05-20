@@ -208,11 +208,24 @@ hr {
 
 .sectionBorder {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 85%;
     margin: auto;
+    margin-left: 15%;
+    border: solid 2px;
+}
+
+.allMovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 80%;
-    flex-direction: column;
+    gap: 10%;
+}
+
+.listMovies {
     border: solid 2px;
 }
 
