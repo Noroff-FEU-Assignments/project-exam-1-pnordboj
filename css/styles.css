@@ -159,6 +159,11 @@ hr {
     border: solid 2px;
 }
 
+.form-error {
+    display: none;
+    color: red;
+}
+
 /* Contact End */
 
 /*--------------*/
