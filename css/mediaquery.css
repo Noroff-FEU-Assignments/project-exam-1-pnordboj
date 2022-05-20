@@ -6,14 +6,16 @@
 
     .navContainer {
         font-size: 20px;
+        margin-left: 2%;
     }
 
     nav {
-        left: 3%;
+        flex-direction: column;
+        left: 2%;
     }
 
     #logoImg {
-        width: 25%;
+        width: 30%;
     }
 
     hr {
