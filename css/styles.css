@@ -37,6 +37,22 @@ a:active, a:visited {
     list-style: none;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-image: linear-gradient(to right, #5C2682 , #7E5FFA); 
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right, #431c5f , #6148c4); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to right, #37164e , #3e2f7c);
+}
+
 .colors {
     color: #162226; /*Primary Background Color*/
     color: #2B3640; /*Secondary Bacgrkound Color/Navbar Color*/
