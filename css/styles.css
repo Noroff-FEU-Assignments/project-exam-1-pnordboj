@@ -120,6 +120,7 @@ a:after, a:link, a:active, a:hover {
 hr {
     width: 100%;
     opacity: 20%;
+    margin-bottom: 5%;
 }
 
 /* Nav End */
