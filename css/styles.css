@@ -140,7 +140,8 @@ hr {
 
 .homeColor {
     text-align: center;
-    background: -webkit-linear-gradient(#F4837D, #DFE3E4); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
+    font-size: 62px;
+    background: -webkit-linear-gradient(#D55854, #F9FAFC); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
