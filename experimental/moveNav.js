@@ -1,7 +1,7 @@
 const htmlNav = document.querySelector("nav");
 const navContainer = document.querySelector(".navContainer");
-const leftButton = document.querySelector("#moveLeft");
-const rightButton = document.querySelector("#moveRight");
+const leftButton = document.getElementById("moveLeft");
+const rightButton = document.getElementById("moveRight");
 
 function moveLeft() {
     try {
