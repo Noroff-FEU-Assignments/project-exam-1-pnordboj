@@ -38,7 +38,7 @@ a:active, a:visited {
 }
 
 ::-webkit-scrollbar {
-    width: 5%;
+    width: 20px;
 }
 
 ::-webkit-scrollbar-track {
