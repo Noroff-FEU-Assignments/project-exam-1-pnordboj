@@ -139,8 +139,10 @@ hr {
 }
 
 #homeColor {
-    background-image: linear-gradient(to right, #37164e , #3e2f7c);
-}
+    background: -webkit-linear-gradient(to right, #F4837D , #F2B3B3 , #DFE3E4); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
 .homeMovies {
     text-align: center;
