@@ -139,7 +139,7 @@ hr {
 }
 
 .homeColor {
-    font-size: 62px;
+    font-size: 72px;
     text-align: center;
     background: -webkit-linear-gradient(to right, #d4322c, #FED45E); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
     background: -o-linear-gradient(right, #d4322c, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
