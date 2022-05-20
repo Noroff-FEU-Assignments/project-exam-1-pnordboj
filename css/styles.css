@@ -141,7 +141,7 @@ hr {
 .homeColor {
     text-align: center;
     font-size: 62px;
-    background: -webkit-linear-gradient(#D55854, #F9FAFC); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
+    background: -webkit-linear-gradient(to right, #D55854, #F9FAFC); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
