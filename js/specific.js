@@ -24,6 +24,7 @@ async function getReview() {
             <img id="specificImg" src="${images.source_url}">
             <div id="specificDesc">${movie.content.rendered}</div>
         </div>
+        ${movie.content.rendered}
         <div class="movieScore">
             <h3>${movie.meta.yasr_overall_rating}</h3>
         </div>
