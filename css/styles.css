@@ -5,13 +5,6 @@
 
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-/* Color Theme Swatches in Hex */
-.My-Color-Theme-1-hex { color: #7AE0FF; }
-.My-Color-Theme-2-hex { color: #4393DE; }
-.My-Color-Theme-3-hex { color: #4877F0; }
-.My-Color-Theme-4-hex { color: #393EDB; }
-.My-Color-Theme-5-hex { color: #7E5FFA; }
-
 /* 
   background-image: linear-gradient(to right, #5C2682 , #7E5FFA);
 */
@@ -55,25 +48,9 @@ a:active, a:visited {
 
 .colors {
     color: #162226; /*Primary Background Color*/
-    color: #2B3640; /*Secondary Bacgrkound Color/Navbar Color*/
-    color: #455973; /*Button Color*/
-    color: #7289A6; /*Secondary Text Color*/
-    color: #9BAEBF; /*Primary Text Color*/
-}
-
 button {
-    background-image: linear-gradient(to right, #5C2682 , #7E5FFA);
+    background-color: #37164e;
     list-style: none;
-}
-
-#moveRight {
-    display: block;
-    cursor: pointer;
-}
-
-#moveLeft {
-    display: none;
-    cursor: pointer;
 }
 
 #logoImg {
@@ -146,10 +123,10 @@ hr {
 .headColor {
     font-size: 72px;
     text-align: center;
-    background: -webkit-linear-gradient(to right, #d4322c, #FED45E); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
-    background: -o-linear-gradient(right, #d4322c, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
-    background: -moz-linear-gradient(right, #d4322c, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
-    background: linear-gradient(to right, #d4322c, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
+    background: -webkit-linear-gradient(#d4322c, #FED45E); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
+    background: -o-linear-gradient(#d4322c, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
+    background: -moz-linear-gradient(#d4322c, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
+    background: linear-gradient(#d4322c, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -200,21 +177,45 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-color: rgba(204, 196, 196, 0.637);
+    width: 45%;
+    max-height: 1000px;
+    border-radius: 10%;
     margin: auto;
-    width: 60%;
 }
 
-.submitButton {
-    border: solid 2px;
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+#fullName, #email, #subject, #description {
+    width: 400px;
+}
+
+#subject {
+    height: 80px;
+}
+
+#description {
+    height: 150px;
 }
 
 #submit {
+    margin-top: 2%;
     cursor: pointer;
+    width: 30%;
+    font-size: 30px;
+}
+
+.form * {
+    color: black !important;
 }
 
 .form-error {
     display: none;
-    color: red;
 }
 
 /* Contact End */
