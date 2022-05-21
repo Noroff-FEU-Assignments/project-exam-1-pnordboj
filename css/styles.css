@@ -48,6 +48,8 @@ a:active, a:visited {
 
 .colors {
     color: #162226; /*Primary Background Color*/
+}
+
 button {
     background-color: #37164e;
     list-style: none;
