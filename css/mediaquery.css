@@ -28,13 +28,17 @@
 
     /* Home Page */
 
-    .homeColor {
+    .headColor {
         font-size: 42px;
     }
 
     /* About Page */
 
     /* Contact Page */
+
+    .form {
+        width: 90%;
+    }
 
     /* Reviews Page */
 
