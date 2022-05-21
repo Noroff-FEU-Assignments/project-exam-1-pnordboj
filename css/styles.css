@@ -180,7 +180,6 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(204, 196, 196, 0.637);
     width: 45%;
     max-height: 1000px;
     border-radius: 10%;
@@ -191,11 +190,7 @@ hr {
 .form {
     display: flex;
     flex-direction: column;
-    margin-top: 2%;
-}
-
-#fullName, #email, #subject, #description {
-    width: 400px;
+    width: 65%;
 }
 
 #subject {
@@ -214,7 +209,7 @@ hr {
 }
 
 .form * {
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .form-error {
