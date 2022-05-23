@@ -63,6 +63,60 @@ button {
     width: 50%;
 }
 
+.loadingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Loading Rotation, was started by me but got help from stackoverflow by providing webkits and correct linear
+   Aswell as -webkit-transform: rotate(360deg); 
+              transform:rotate(360deg);
+   Contributed by https://stackoverflow.com/questions/16771225/css3-rotate-animation
+   By user: Giona
+*/
+
+.loading, .loadingSpecific {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: loading 2s linear infinite;
+    -moz-animation: loading 2s linear infinite;
+    animation: loading 2s linear infinite;
+}
+
+@-moz-keyframes loading { 
+    100% { 
+        -moz-transform: rotate(360deg);
+    } 
+}
+
+@-webkit-keyframes loading { 
+    100% { 
+        -webkit-transform: rotate(360deg);
+    } 
+}
+
+@keyframes loading { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform: rotate(360deg); 
+    } 
+}
+
+.loading img {
+    width: 20%;
+}
+
+.loadingSpecific img {
+    width: 20%;
+}
+
+/* ---Loading End--- */
+
 .headColor {
     font-size: 62px;
     text-align: center;
