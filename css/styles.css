@@ -11,15 +11,19 @@
 
 * {
     font-family: "Montserrat", "sans-serif";
-    color: #F2E205;
+    color: #fffde0;
+}
+
+.color-Checker {
+    color: #3a1852;
 }
 
 body {
-    background-image: linear-gradient(to right, #5C2682 , #7E5FFA);
+    background-image: linear-gradient(to right, #3a1852 , #7E5FFA);
 }
 
 header {
-    background-image: linear-gradient(to right, #5C2682 , #7E5FFA);
+    background-image: linear-gradient(to right, #3a1852 , #7E5FFA);
 }
 
 ul, a, li {
@@ -35,7 +39,7 @@ a:active, a:visited {
 }
 
 ::-webkit-scrollbar-track {
-    background-image: linear-gradient(to right, #5C2682 , #7E5FFA);
+    background-image: linear-gradient(to right, #3a1852 , #7E5FFA);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -57,6 +61,17 @@ button {
 
 #logoImg {
     width: 50%;
+}
+
+.headColor {
+    font-size: 62px;
+    text-align: center;
+    background: -webkit-linear-gradient(#fffde0, #FED45E); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
+    background: -o-linear-gradient(#fffde0, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
+    background: -moz-linear-gradient(#fffde0, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
+    background: linear-gradient(#fffde0, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Global End */
@@ -89,10 +104,10 @@ a:active, li:hover {
 /* Generated with the CSS Gradient tool from https://cssgradient.io */
 .active {
     cursor: default;
-    background: -moz-linear-gradient(right, #f2e2055f, #f2e2050b, #f2e20500);    
-    background: -o-linear-gradient(right, #f2e2055f, #f2e2050b, #f2e20500);
-    background: -webkit-linear-gradient(to right, #f2e2055f, #f2e2050b, #f2e20500);
-    background: linear-gradient(to right, #f2e2055f, #f2e2050b, #f2e20500);
+    background: -moz-linear-gradient(right, #fffde0, #f2e2050b, #f2e20500);    
+    background: -o-linear-gradient(right, #fffde0, #f2e2050b, #f2e20500);
+    background: -webkit-linear-gradient(to right, #fffde0, #f2e2050b, #f2e20500);
+    background: linear-gradient(to right, #fffde0, #f2e2050b, #f2e20500);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -112,46 +127,44 @@ hr {
 
 /* Home Start */
 
-.home-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #homeH1, #homeH2 {
     text-align: center;
+    margin-bottom: 4%;
 }
 
-.headColor {
-    font-size: 72px;
-    text-align: center;
-    background: -webkit-linear-gradient(#d4322c, #FED45E); /*  Provided by CSS-Tricks https://css-tricks.com/snippets/css/gradient-text/ */
-    background: -o-linear-gradient(#d4322c, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
-    background: -moz-linear-gradient(#d4322c, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
-    background: linear-gradient(#d4322c, #FED45E); /* Solution Provided by Stackoverflow answer https://stackoverflow.com/a/39884317 */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.homeMovies {
-    text-align: center;
-    border: solid 2px;
-    margin-bottom: 10%;
+.home-main {
+    max-height: 1000px;
+    height: auto;
 }
 
 .latestMovies {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 60%;
-    gap: 15%;
+    margin: 0 auto;
+    max-width: 500px;
 }
 
-.apiImage > img {
-    width: 200px;
+figure {
+    flex: 1;
+    overflow: hidden;
+    margin: 0px;
+    transition: all 1s;
+    font-size: 0px;
+    opacity: 60%;
+}
+
+.selectedImage {
+    flex: 5;
+    opacity: 100%;
+    font-size: 20px;
+}
+
+#carouselTitle {
+    border: #FED45E solid 1px;
+    width: fit-content;
+}
+
+#carouselImg {
+    height: 500px;
 }
 
 /* Home End */
@@ -162,11 +175,9 @@ hr {
 
 .aboutMain {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     margin: auto;
-    width: 50%;
+    width: 40%;
 }
 
 /* About End */
@@ -208,12 +219,22 @@ hr {
     font-size: 30px;
 }
 
+label {
+    color: #fffde0 !important;
+}
+
 .form * {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0);
 }
 
 .form-error {
     display: none;
+    transition: all 1s;
+    font-size: 22px;
+}
+
+.form-error p {
+    color: rgb(255, 255, 255) !important;
 }
 
 /* Contact End */
@@ -244,6 +265,11 @@ hr {
     margin-top: 7%;
     text-align: center;
     border: solid 2px;
+    transition: all 1s;
+}
+
+.apiImage > img {
+    width: 200px;
 }
 
 /* List End */
@@ -298,7 +324,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: linear-gradient(to right, #5C2682 , #7E5FFA);
+    background-image: linear-gradient(to right, #3a1852 , #7E5FFA);
 
 }
 

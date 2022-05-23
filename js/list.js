@@ -19,7 +19,7 @@ async function getMovies() {
                 <div class="listMovies">
                     <a href="specific.html?id=${movies[i].id}"><h3 id="getTitle">${movies[i].title.rendered}</h3></a>
                     <a class="apiImage" href="specific.html?id=${movies[i].id}">
-                        <img id="getImg" src="${imageMovie.source_url}">
+                        <img id="getImg" alt="${movies[i].title.rendered}" src="${imageMovie.source_url}">
                     </a>
                 </div>
             `;

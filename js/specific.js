@@ -22,7 +22,7 @@ async function getReview() {
         <div class="specificReview">
             <div class="titleImage">
                 <h2 id="specificTitle">${movie.title.rendered}</h2>
-                <img id="specificImg" src="${images.source_url}">
+                <img id="specificImg" alt="${movie.title.rendered}" src="${images.source_url}">
             </div>
             <div class="movieScore">
                     <h4>Our Score:</h4>
