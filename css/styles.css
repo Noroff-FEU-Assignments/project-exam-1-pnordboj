@@ -115,6 +115,10 @@ button {
     width: 20%;
 }
 
+.loadMobile img {
+    width: 20%;
+}
+
 /* ---Loading End--- */
 
 .headColor {
@@ -219,6 +223,10 @@ figure {
 
 #carouselImg {
     height: 500px;
+}
+
+.homeMobile {
+    display: none;
 }
 
 /* Home End */
@@ -379,7 +387,6 @@ footer {
     left: 0;
     right: 0;
     background-image: linear-gradient(to right, #3a1852 , #7E5FFA);
-
 }
 
 /* Footer End */

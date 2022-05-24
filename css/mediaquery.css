@@ -1,6 +1,124 @@
 /* For Mobile Phones, example: All iPhones according too Firefox Developer Edition */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 380px) {
+    /* Global */
+
+    .navContainer {
+        font-size: 20px;
+        margin-left: 2%;
+    }
+
+    nav {
+        flex-direction: column;
+        left: 1%;
+        font-size: 14px;
+    }
+
+    #logoImg {
+        width: 20%;
+    }
+
+    hr {
+        width: 30%;
+    }
+
+    /* Home Page */
+
+    .headColor {
+        font-size: 22px;
+    }
+
+    .latestMovies, .selectedImage {
+        display: none;
+    }
+
+    .homeMobile {
+        display: flex;
+        max-width: 768px;
+        width: 40%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .mobileMovies {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        border: solid 2px;
+        margin-bottom: 25%;
+        font-size: 12px;
+    }
+
+    #mobileImg {
+        width: 100%;
+    }
+
+    /* About Page */
+
+    /* Contact Page */
+
+    .contactForm {
+        max-width: 768px;
+        width: 55%;
+    }
+
+    .form {
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 15%;
+    }
+
+    .form-error {
+        transition: all 1s;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .form-error p {
+        color: red !important;
+        background-color: black;
+    }
+
+    #subject {
+        width: 100%;
+    }
+
+    #description {
+        width: 100%;
+    }
+
+    #submit {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    /* Reviews Page */
+
+    .allMovies {
+        width: 70%;
+    }
+
+    .apiImage > img {
+        width: 100%;
+    }
+
+    /* Specific Page */
+
+    .getReview {
+        flex-wrap: wrap;
+    }
+
+    .specificReview  {
+        width: 60%;
+    }
+
+    .movieDesc {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 380px) and (max-width: 880px) {
 
     /* Global */
 
@@ -12,10 +130,6 @@
     nav {
         flex-direction: column;
         left: 2%;
-    }
-
-    #moveRight, #moveLeft {
-        display: none;
     }
 
     #logoImg {
@@ -32,33 +146,98 @@
         font-size: 42px;
     }
 
+    .latestMovies, .selectedImage {
+        display: none;
+    }
+
+    .homeMobile {
+        display: flex;
+        max-width: 768px;
+        width: 50%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .mobileMovies {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        border: solid 2px;
+        margin-bottom: 25%;
+    }
+
+    #mobileImg {
+        width: 100%;
+    }
+
     /* About Page */
 
     /* Contact Page */
 
+    .contactForm {
+        max-width: 768px;
+        width: 55%;
+    }
+
     .form {
         width: 100%;
         font-size: 12px;
+        margin-bottom: 15%;
+    }
+
+    .form-error {
+        transition: all 1s;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .form-error p {
+        color: red !important;
+        background-color: black;
+    }
+
+    #subject {
+        width: 100%;
+    }
+
+    #description {
+        width: 100%;
     }
 
     #submit {
-        width: 90%;
-        font-size: 20px;
+        width: 100%;
+        font-size: 30px;
     }
 
     /* Reviews Page */
 
-    .sectionBorder {
-        border: none;
+    .allMovies {
+        width: 70%;
+    }
+
+    .apiImage > img {
+        width: 100%;
     }
 
     /* Specific Review Page */
+
+    .getReview {
+        flex-wrap: wrap;
+    }
+
+    .specificReview  {
+        width: 80%;
+    }
+
+    .movieDesc {
+        font-size: 14px;
+    }
 
 }
 
 /* Tablet */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 880px) {
 
 }
 
