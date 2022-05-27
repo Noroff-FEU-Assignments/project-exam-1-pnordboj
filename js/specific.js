@@ -16,7 +16,7 @@ async function getReview() {
         const images = await fetchImage.json();
         html.innerHTML = ``;
         console.log(movie);
-        document.title = `${movie.title.rendered} | Movie Corn`;
+        document.title = `Movie Corn | ${movie.title.rendered}`;
         document.getElementsByTagName('meta')["description"].content = `${movie.content.rendered}`
         html.innerHTML = `
         <div class="specificReview">
