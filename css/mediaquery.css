@@ -67,6 +67,7 @@
     }
 
     #nextButtonMobile {
+        display: flex;
         border-style: none;
         width: 30%;
         border: #FED45E solid 1px;
@@ -189,7 +190,6 @@
         width: 40%;
         flex-wrap: wrap;
         margin: 0 auto;
-        overflow: visible;
     }
 
     .mobileMovies {
@@ -216,6 +216,7 @@
     }
 
     #nextButtonMobile {
+        display: flex;
         border-style: none;
         width: 30%;
         border: #FED45E solid 1px;

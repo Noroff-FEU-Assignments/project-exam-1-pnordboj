@@ -29,13 +29,6 @@ async function getMobile() {
     try {
         const fetchMovie = await fetch(`https://patricknj.one/nordbo/wp-json/wp/v2/posts?per_page=2&page=${perPageValue}`);
         const movies = await fetchMovie.json();
-
-        if(perPageValue === 5) {
-            return
-        } else {
-            nextMobile.style.display = "block"
-        }
-
         mobile.innerHTML = '';
         for(let i = 0; i < movies.length; i++) {
             const featureId = `${movies[i].featured_media}`;
