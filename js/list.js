@@ -16,7 +16,7 @@ async function getMovies() {
             const fetchImages = await fetch(image + featureId);
             const imageMovie = await fetchImages.json();
             html.innerHTML += `
-                <div class="listMovies">
+                <div class="${i === 10, 11 ? 'tab1' : 'tab2'}">
                     <a href="specific.html?id=${movies[i].id}"><h3 id="getTitle">${movies[i].title.rendered}</h3></a>
                     <a class="apiImage" href="specific.html?id=${movies[i].id}">
                         <img id="getImg" alt="${movies[i].title.rendered}" src="${imageMovie.source_url}">
@@ -29,5 +29,7 @@ async function getMovies() {
         html.innerHTML = displayError('Error', error);
     }
 }
+
+// <div class="listMovies">
 
 getMovies();

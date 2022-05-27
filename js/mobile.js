@@ -8,7 +8,6 @@ async function getMobile() {
         const movies = await fetchMovie.json();
         mobile.innerHTML = '';
         for(let i = 0; i < movies.length; i++) {
-            console.log(movies[i]);
             const featureId = `${movies[i].featured_media}`;
             const fetchImages = await fetch(imageMobile + featureId);
             const imageMovie = await fetchImages.json();

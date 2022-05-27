@@ -1,13 +1,6 @@
-/*--------------*/
-/*--------------*/
-
 /* Global Start */
 
 @import url(//fonts.googleapis.com/css?family=Montserrat);
-
-/* 
-  background-image: linear-gradient(to right, #5C2682 , #7E5FFA);
-*/
 
 * {
     font-family: "Montserrat", "sans-serif";
@@ -175,8 +168,8 @@ a:after, a:link, a:active, a:hover {
 }
 
 hr {
-    width: 75%;
-    opacity: 20%;
+    width: 60%;
+    opacity: 10%;
 }
 
 /* Nav End */
@@ -227,6 +220,19 @@ figure {
 
 .homeMobile {
     display: none;
+}
+
+.pagination {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    max-width: 500px;
+}
+
+#nextButton, #prevButton {
+    border-style: none;
+    width: 30%;
+    border: #FED45E solid 1px;
 }
 
 /* Home End */
@@ -323,11 +329,15 @@ label {
     gap: 10%;
 }
 
-.listMovies {
+.tab1 {
     margin-top: 7%;
     text-align: center;
     border: solid 2px;
     transition: all 1s;
+}
+
+.tab2 {
+    display: none;
 }
 
 .apiImage > img {
