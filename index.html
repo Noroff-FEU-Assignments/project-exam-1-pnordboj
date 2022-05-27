@@ -28,7 +28,7 @@
                 <a class="logo" href="#">
                     <img id="logoImg" alt="Movie Corn" src="assets/movie-corn.png">
                 </a>
-                <a href="#""><li class="active">Home</li></a>
+                <a href="#"><li class="active">Home</li></a>
                 <a href="html/about.html"><li>About</li></a>
                 <a href="html/contact.html"><li>Contact</li></a>
                 <a href="html/list.html"><li>Reviews</li></a>
@@ -37,6 +37,8 @@
     </header>
     <h1 id="homeH1">Welcome to</h1>
     <h1 class="headColor">Movie Corn!</h1>
+    
+    <!--Pagination Button-->
     <div class="pagination">
         <button id="nextButton">
             Next Page
@@ -55,20 +57,23 @@
                         <img src="assets/movie-corn.png">
                     </div>
                     <h2>LOADING...</h2>
-                </div>
-            </div>
+
             <!--Mobile View-->
             <div class="homeMobile">
             
             </div>
-            <!--Pagination Button-->
         </div>
-        <footer>
-            <p id="copyright">&copy; Movie Corn 2022</p>
-        </footer>
-
     </section>
-    
+    <footer>
+        <button class="paginationMobile" id="prevButtonMobile">
+            Previous Page
+        </button>
+        <p id="copyright">&copy; Movie Corn 2022</p>
+        <button class="paginationMobile" id="nextButtonMobile">
+            Next Page
+        </button>
+    </footer>
+
     <script src="js/home.js"></script>
     <script src="js/mobile.js"></script>
     <script src="js/error/error.js"></script>

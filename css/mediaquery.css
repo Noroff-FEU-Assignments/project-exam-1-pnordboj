@@ -53,6 +53,35 @@
         width: 100%;
     }
 
+    .pagination {
+        display: none;
+    }
+
+    .paginationMobile {
+        display: flex;
+        gap: 60%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+    }
+
+    #nextButtonMobile {
+        border-style: none;
+        width: 30%;
+        border: #FED45E solid 1px;
+        cursor: pointer;
+        height: 40px;
+    }
+
+    #prevButtonMobile {
+        border-style: none;
+        width: 30%;
+        border: #FED45E solid 1px;
+        cursor: pointer;
+        height: 40px;
+    }
+
     /* About Page */
 
     /* Contact Page */
@@ -132,6 +161,10 @@
         left: 2%;
     }
 
+    .active {
+        max-width: 50px;
+    }
+
     #logoImg {
         width: 30%;
     }
@@ -152,22 +185,50 @@
 
     .homeMobile {
         display: flex;
-        max-width: 768px;
-        width: 50%;
+        flex-direction: row;
+        width: 40%;
         flex-wrap: wrap;
         margin: 0 auto;
+        overflow: visible;
     }
 
     .mobileMovies {
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
-        border: solid 2px;
-        margin-bottom: 25%;
     }
 
     #mobileImg {
         width: 100%;
+    }
+    
+    .pagination {
+        display: none;
+    }
+
+    .paginationMobile {
+        display: flex;
+        gap: 60%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+    }
+
+    #nextButtonMobile {
+        border-style: none;
+        width: 30%;
+        border: #FED45E solid 1px;
+        cursor: pointer;
+        height: 40px;
+    }
+
+    #prevButtonMobile {
+        border-style: none;
+        width: 30%;
+        border: #FED45E solid 1px;
+        cursor: pointer;
+        height: 40px;
     }
 
     /* About Page */
@@ -238,23 +299,31 @@
 /* Tablet */
 
 @media only screen and (min-width: 880px) {
-
+    .paginationMobile, #prevButtonMobile, #nextButtonMobile {
+        display: none;
+    }
 }
 
 /* Laptop */
 
 @media only screen and (min-width: 1200px) {
-
+    .paginationMobile, #prevButtonMobile, #nextButtonMobile {
+        display: none;
+    }
 }
 
 /* For Desktop */
 
 @media only screen and (min-width: 1600px) {
-
+    .paginationMobile, #prevButtonMobile, #nextButtonMobile {
+        display: none;
+    }
 }
 
 /* Bigger Monitors */
 
 @media only screen and (min-width: 2000px) {
-
+    .paginationMobile, #prevButtonMobile, #nextButtonMobile {
+        display: none;
+    }
 }
