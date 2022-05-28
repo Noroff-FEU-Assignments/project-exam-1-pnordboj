@@ -12,7 +12,6 @@ nextMobile.onclick = function() {
         perPageValue++
     }
     getMobile();
-    console.log(`https://patricknj.one/nordbo/wp-json/wp/v2/posts?per_page=2&page=${perPageValue}`)
 
 }
 
@@ -43,7 +42,7 @@ async function getMobile() {
         }
     } catch(error) {
         console.log(error);
-        html.innerHTML = displayError('Error', error);
+        mobile.innerHTML = displayError('Error', error);
     }
 }
 

@@ -7,10 +7,6 @@
     color: #fffde0;
 }
 
-.color-Checker {
-    color: #3a1852;
-}
-
 body {
     background-image: linear-gradient(to right, #3a1852 , #7E5FFA);
 }
@@ -41,10 +37,6 @@ a:active, a:visited {
 
 ::-webkit-scrollbar-thumb:hover {
     background-image: linear-gradient(to right, #37164e , #3e2f7c);
-}
-
-.colors {
-    color: #162226; /*Primary Background Color*/
 }
 
 button {

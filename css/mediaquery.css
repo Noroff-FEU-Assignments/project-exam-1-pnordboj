@@ -1,4 +1,4 @@
-/* For Mobile Phones, example: All iPhones according too Firefox Developer Edition */
+/* For Mobile Phones (Mini models, like iPhone 12 Mini or 13 Mini) */
 
 @media only screen and (max-width: 380px) {
     /* Global */
@@ -148,6 +148,7 @@
 
 }
 
+/* Phones regular sizes and big models */
 @media only screen and (min-width: 380px) and (max-width: 880px) {
 
     /* Global */
