@@ -301,31 +301,19 @@
 /* Tablet */
 
 @media only screen and (min-width: 880px) {
-    .paginationMobile, #prevButtonMobile, #nextButtonMobile {
-        display: none;
-    }
 }
 
 /* Laptop */
 
 @media only screen and (min-width: 1200px) {
-    .paginationMobile, #prevButtonMobile, #nextButtonMobile {
-        display: none;
-    }
 }
 
 /* For Desktop */
 
 @media only screen and (min-width: 1600px) {
-    .paginationMobile, #prevButtonMobile, #nextButtonMobile {
-        display: none;
-    }
 }
 
 /* Bigger Monitors */
 
 @media only screen and (min-width: 2000px) {
-    .paginationMobile, #prevButtonMobile, #nextButtonMobile {
-        display: none;
-    }
 }

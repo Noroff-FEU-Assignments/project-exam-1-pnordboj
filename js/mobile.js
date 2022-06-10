@@ -10,9 +10,13 @@ nextMobile.onclick = function() {
         return
     } else {
         perPageValue++
+        getMobile();
     }
     getMobile();
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 }
 
 prevMobile.onclick = function() {

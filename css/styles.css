@@ -227,10 +227,6 @@ figure {
     border: #FED45E solid 1px;
 }
 
-#nextButtonMobile {
-    display: none;
-}
-
 .paginationMobile {
     display: none;
 }
